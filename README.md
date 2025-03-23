@@ -15,6 +15,7 @@ All projects are operated by glman.exe.
 <img width="323" alt="increase uNoiseAmp and uNoiseFreq" src="https://github.com/user-attachments/assets/8a4f4c8f-37cd-42e1-9b23-7f40b7350b61" />
 
 * Project04
+![bump-maps-inside](https://github.com/user-attachments/assets/278d5e9c-6d0d-49c3-8132-84c5d4f0bf1e)
 
 * Project05
 
