@@ -1,0 +1,32 @@
+##OpenGL GLIB
+Perspective 70
+LookAt  0 0 3  0 0 0  0 1 0
+
+Vertex texture.vert
+Fragment texture.frag
+Program Texture  TexUnit 6
+
+CubeMap 6 nvposx.bmp nvnegx.bmp  nvposy.bmp nvnegy.bmp   nvposz.bmp nvnegz.bmp
+CubeMap 7 nvposx.bmp nvnegx.bmp  nvposy.bmp nvnegy.bmp   nvposz.bmp nvnegz.bmp
+
+Vertex   CrystalFlatSnake.vert
+Fragment CrystalFlatSnake.frag
+Program  CrystalFlatSnake		\
+		uReflectUnit 6			\
+		uRefractUnit 7			\
+		uMix <0. 0. 1.>			\
+		uWhiteMix 0.2			\
+		uEta 1.4
+
+scale 0.35 
+Obj snake.obj
+
+Vertex		elephant.vert
+Fragment	elephant.frag
+Program		ElephantShader
+Rotate 90 0 0 1
+Rotate 90 0 1 0 
+scale 0.005
+
+Timer 1.
+Obj elephant.obj
